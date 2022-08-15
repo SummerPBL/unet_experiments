@@ -55,7 +55,7 @@ if __name__ == '__main__':
     model=U_net(1,1,)
     # model.load_state_dict(torch.load('D:/microsoft_PBL/attention_unet/weights/attention_unet_10_10_0.04192398488521576',map_location='cpu'))
 
-    model.load_state_dict(torch.load('D:/microsoft_PBL/unet_experiments/train_models/unet_19_level4_9624.pth',map_location='cpu'))
+    model.load_state_dict(torch.load('D:/microsoft_PBL/unet_experiments/trained_models/unet_19_level4_9624.pth',map_location='cpu'))
 
     model.eval()
 
